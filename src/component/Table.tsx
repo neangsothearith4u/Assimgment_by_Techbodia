@@ -102,7 +102,7 @@ const Table = () => {
         filters={search}
         loading={loading}
         onSelectionChange={(e) => setSelectedCountry(e.value)}
-        selectionMode="single" // Optional: If you want to allow selecting only one row at a time
+        selectionMode="single" 
       >
         <Column field="flags.png" header="Flag" body={countryImage} />
         <Column field="name.official" header="Country" sortable />
