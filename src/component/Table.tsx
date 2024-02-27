@@ -82,7 +82,7 @@ const Table = () => {
       <span className="p-input-icon-left" style={{ marginBottom: "20px" }}>
         <i className="pi pi-search" />
         <InputText
-          placeholder="Search"
+          placeholder="Search by Country Name"
           onInput={(e) =>
             setSearch({
               global: {
